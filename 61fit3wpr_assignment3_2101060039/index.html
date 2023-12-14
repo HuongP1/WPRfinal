@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+        <img class="logo" src="asset/ampersand-photography.png" alt="logo">
+        <h1> Ampersand Photography </h1>
+    </div>
+    </header>
+
+    <div class="navBar">
+        <a href="">GALLERY 1</a>
+        <a href="">GALLERY 2</a>
+        <a href="">GALLERY 3</a>
+        <a href="">GALLERY 4</a>
+    </div>
+
+    <div class="thumbnails">
+
+        <!-- ROW 1 -->
+          <div class="item">
+          <img class="row1 col1" src="asset/image01-thumbnail.jpg" alt="image 1" onclick="openImage('asset/image01.jpg')"> 
+          <div class="overlay">
+            <span class="caption"><h5>LES CHUCHOTEUSES</h5><p>Sculpture of ladies gossiping in Montreal</p><p>(click to enlarge)</p></span>
+          </div>
+        </div>
+        <div class="item">
+            <img class="row1 col2" src="asset/image02-thumbnail.jpg" alt="image 2" onclick="openImage('asset/image02.jpg')">
+            <div class="overlay">
+                <span class="caption"><h5>FLOWER & ANT</h5><p>To an ant, a flower is an entire world</p><p>(click to enlarge)</p></span>
+              </div>
+            </div>
+
+            <div class="item">
+            <img class="row1 col3" src="asset/image03-thumbnail.jpg" alt="image 3" onclick="openImage('asset/image03.jpg')">
+            <div class="overlay">
+                <span class="caption"><h5>BUSY BEE</h5><p>A bee bobbing for nectar</p><p>(click to enlarge)</p></span>
+              </div>
+            </div>
+
+
+             <!-- ROW 2 -->
+            <div class="item">
+            <img class="row2 col1" src="asset/image04-thumbnail.jpg" alt="image 4" onclick="openImage('asset/image04.jpg')">
+            <div class="overlay">
+                <span class="caption"><h5>ON THE WING</h5><p>An unknown yellow bird, mid-flight</p><p>(click to enlarge)</p></span>
+              </div>
+            </div>
+    
+            <div class="item">
+            <img class="row2 col2" src="asset/image05-thumbnail.jpg" alt="image 5" onclick="openImage('asset/image05.jpg')">
+            <div class="overlay">
+                <span class="caption"><h5>SAD SPIDERMAN</h5><p>Doing whatever a spider can</p><p>(click to enlarge)</p></span>
+              </div>
+            </div>
+
+            <div class="item">
+            <img class="row2 col3" src="asset/image06-thumbnail.jpg" alt="image 6" onclick="openImage('asset/image06.jpg')">
+            <div class="overlay">
+                <span class="caption"><h5>HORSE & CART</h5><p>A horse-and-cart toy, ready to move out</p><p>(click to enlarge)</p></span>
+              </div>
+            </div>
+
+
+
+             <!-- ROW 3 -->
+              <div class="item">
+                <img class="row3 col1" src="asset/image02-thumbnail.jpg" alt="image" onclick="openImage('asset/image02.jpg')">
+                  <div class="overlay">
+                      <span class="caption"><h5>FLOWER & ANT</h5><p>To an ant, a flower is an entire world</p><p>(click to enlarge)</p></span>
+                    </div>
+                  </div>
+      
+                  <div class="item">
+                    <img class="row3 col2" src="asset/image03-thumbnail.jpg" alt="image" onclick="openImage('asset/image03.jpg')">
+                  <div class="overlay">
+                      <span class="caption"><h5>BUSY BEE</h5><p>A bee bobbing for nectar</p><p>(click to enlarge)</p></span>
+                    </div>
+                  </div>
+                
+                  <div class="item">
+                    <img class="row3 col3" src="asset/image01-thumbnail.jpg" alt="image" onclick="openImage('asset/image01.jpg')">
+                    <div class="overlay">
+                      <span class="caption"><h5>LES CHUCHOTEUSES</h5><p>Sculpture of ladies gossiping in Montreal</p><p>(click to enlarge)</p></span>
+                    </div>
+                  </div>
+      
+
+            <!-- ROW 4 -->
+                  <div class="item">
+                    <img class="row4 col1" src="asset/image06-thumbnail.jpg" alt="image" onclick="openImage('asset/image06.jpg')">
+                    <div class="overlay">
+                        <span class="caption"><h5>HORSE & CART</h5><p>A horse-and-cart toy, ready to move out</p><p>(click to enlarge)</p></span>
+                      </div>
+                    </div>
+
+                  <div class="item">
+                    <img class="row4 col2" src="asset/image04-thumbnail.jpg" alt="image" onclick="openImage('asset/image04.jpg')">
+                    <div class="overlay">
+                        <span class="caption"><h5>ON THE WING</h5><p>An unknown yellow bird, mid-flight</p><p>(click to enlarge)</p></span>
+                      </div>
+                    </div>
+            
+                    <div class="item">
+                        <img class="row4 col3" src="asset/image05-thumbnail.jpg" alt="image" onclick="openImage('asset/image05.jpg')"> 
+                    <div class="overlay">
+                        <span class="caption"><h5>SAD SPIDERMAN</h5><p>Doing whatever a spider can</p><p>(click to enlarge)</p></span>
+                      </div>
+                    </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <i>&copy; AMPERSAND PHOTOGRAPHY</i>
+         </div>
+
+        <div class="socialMedia">
+            <a href="">FACEBOOK</a>  
+            <a href="">TWITTER</a> 
+            <a href="">INSTAGRAM </a> 
+        </div>
+       
+    </footer>
+
+    <script type="text/javascript">
+          // Open the full-size image in a new tab
+        function openImage(fullSizeSrc) {
+        window.open(fullSizeSrc, '_blank'); }
+
+    </script>
+</body>
+</html> 
